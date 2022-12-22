@@ -292,7 +292,10 @@ local omci_def = {
 	{attname="ARC",	length=1, setbycreate=false},
 	{attname="ARC Interval", length=1, setbycreate=false},
 	{attname="Power Control", length=1, setbycreate=false}},
-	
+
+[83] = { me_class_name = "PPTP LCT UNI",
+		{attname="Administrative state", length=1, setbycreate=false}},
+
 [84] = { me_class_name = "VLAN tagging filter data",
 	{attname="VLAN filter list", length=24, setbycreate=true},
 	{attname="Forward operation", length=1, setbycreate=true},
