@@ -96,7 +96,7 @@ setmetatable(msgtype, msgtype_meta)
 
 local msg_result_meta = {
   __index = function(t, k)   
-    if k == 7 or k == 8 or k > 9 then
+    if k == 8 or k > 9 then
       return "Unknown"
     end
   end
@@ -110,7 +110,8 @@ local msg_result= {
 	[4] = "Unknown managed entity",
 	[5] = "Unknown managed entity instance",
 	[6] = "Device busy",
-	[9] = "Attribute failed or unknown"
+	[7] = "Instance exists",
+	[9] = "Attribute failed or unknown",
 }
 setmetatable(msg_result, msg_result_meta)
 
