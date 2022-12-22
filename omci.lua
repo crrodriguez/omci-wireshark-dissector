@@ -400,7 +400,7 @@ local omci_def = {
 	{ attname="Associated ME pointer", length=2, setbycreate=true },
 	{ attname="DSCP to P-bit mapping", length=24, setbycreate=false }},
 	
-[256] = { me_class_name = "ONT-G",
+[256] = { me_class_name = "ONU-G",
 	{ attname="Vendor Id", length=4, setbycreate=false },
 	{ attname="Version", length=14, setbycreate=false },
 	{ attname="Serial Nr", length=8, setbycreate=false },
