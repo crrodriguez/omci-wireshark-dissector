@@ -138,9 +138,9 @@ local mt2 = {
 		returntable.me_class_name= "Reserved for future B-PON managed entities"
 	elseif k >= 240 and k <= 255 then
 		returntable.me_class_name= "Reserved for vendor-specific managed entities"
-   	elseif k >= 343 and k <= 65279 then 
-		returntable.me_class_name= "Reserved for future standardization" 
-	elseif k >= 65280 and k <= 65535 then 
+   	elseif k >= 453 and k <= 65279 then 
+		returntable.me_class_name= "Reserved for future standardization"
+	elseif (k >= 350 and  k <= 399) or (k >= 65280 and k <= 65535) then
 		returntable.me_class_name= "Reserved for vendor-specific use"
 	else
 		returntable.me_class_name= "***TBD*** (" .. k .. ")"
