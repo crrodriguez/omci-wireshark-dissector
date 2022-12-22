@@ -597,7 +597,7 @@ local omci_def = {
 	{ attname="Packets 512 to 1023 Octets", length=4, setbycreate=false },
 	{ attname="Packets 1024 to 1518 Octets", length=4, setbycreate=false }},
 	
-[297] = { me_class_name = "Port mapping package-G",
+[297] = { me_class_name = "Port mapping package",
 	{ attname="Max ports", length=1, setbycreate=false },
 	{ attname="Port list 1", length=16, setbycreate=false },
 	{ attname="Port list 2", length=16, setbycreate=false },
