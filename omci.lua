@@ -42,6 +42,14 @@
 
 require "BinDecHex"
 
+local my_info = {
+	version = "1.4.5",
+	author = "Dirk Van Aken, Olivier Hardouin, Cristian Rodriguez",
+	repository = "https://github.com/crrodriguez/omci-wireshark-dissector.git"
+}
+
+set_plugin_info(my_info)
+
 -- Create a new dissector
 omciproto = Proto ("omci", "OMCI Protocol")
 
