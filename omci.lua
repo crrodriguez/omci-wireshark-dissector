@@ -416,7 +416,7 @@ local omci_def = {
 	{ attname="Extended TC-layer options", length=2, setbycreate=false },
 },
 
-[257] = { me_class_name = "ONT2-G",
+[257] = { me_class_name = "ONU2-G",
 	{ attname="Equipment id", length=20, setbycreate=false },
 	{ attname="OMCC version", length=1, setbycreate=false },
 	{ attname="Vendor product code", length=2, setbycreate=false },
