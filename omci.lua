@@ -682,6 +682,11 @@ local omci_def = {
 	{ attname="Packets 256 to 511 Octets", length=4, setbycreate=false },
 	{ attname="Packets 512 to 1023 Octets", length=4, setbycreate=false },
 	{ attname="Packets 1024 to 1518 Octets", length=4, setbycreate=false }},
+
+[340] = { me_class_name = "BBF TR-069 management server",
+	{ attname="Administrative state", length=1, setbycreate=false },
+	{ attname="ACS network address", length=2, setbycreate=false },
+	{ attname="Associated tag", length=2, setbycreate=false }},
 }
 
 setmetatable(omci_def, mt2)
