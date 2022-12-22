@@ -160,7 +160,10 @@ local omci_def = {
 	{ attname="Expected Equipment Id", length=20, setbycreate=false },
 	{ attname="Actual Equipment Id", length=20, setbycreate=false },
 	{ attname="Protection Profile Pointer", length=1, setbycreate=false },
-	{ attname="Invoke Protection Switch", length=1, setbycreate=false }},
+	{ attname="Invoke Protection Switch", length=1, setbycreate=false },
+	{ attname="ARC", length=1, setbycreate=false },
+	{ attname="ARC interval", length=1, setbycreate=false },
+},
 
 [6] = { me_class_name = "Circuit Pack",
 	{ attname="Type", length=1, setbycreate=true },
