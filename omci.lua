@@ -185,7 +185,10 @@ local omci_def = {
 	{ attname="Version", length=14, setbycreate=false },
 	{ attname="Is committed", length=1, setbycreate=false },
 	{ attname="Is active", length=1, setbycreate=false },
-	{ attname="Is valid", length=1, setbycreate=false }},
+	{ attname="Is valid", length=1, setbycreate=false },
+	{ attname="Product code", length=25, setbycreate=false},
+	{ attname="Image hash", length=16, setbycreate=false},
+},
 
 [11] = { me_class_name = "PPTP Ethernet UNI",
 	{attname="Expected Type",			length=1, setbycreate=false},
