@@ -426,7 +426,12 @@ local omci_def = {
 	{ attname="Total traffic scheduler number", length=1, setbycreate=false },
 	{ attname="Mode", length=1, setbycreate=false },
 	{ attname="Total GEM port-ID number", length=2, setbycreate=false },
-	{ attname="SysUp Time", length=4, setbycreate=false }},
+	{ attname="SysUp Time", length=4, setbycreate=false },
+	{ attname="Connectivity capability", length=2, setbycreate=false},
+	{ attname="Current connectivity mode", length=1, setbycreate=false},
+	{ attname="QoS configuration flexibility", length=2, setbycreate=false},
+	{ attname="Priority queue scale factor", length=2, setbycreate=false}
+},
 
 [262] = { me_class_name = "T-CONT",
 	{ attname="Alloc-id", length=2, setbycreate=false },
